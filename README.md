@@ -27,7 +27,7 @@ Extensive experiments show the effectiveness of our dataset and method, revealin
 
 【Dataset pipeline】
 
-![ESDNet](data_pipeline.png)
+![Dataset_pipeline](data_pipeline.jpg)
 
 <!---
 ## News
