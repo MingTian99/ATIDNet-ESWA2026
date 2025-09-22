@@ -65,13 +65,13 @@ The final file path should be the same as the following:
 
 ```
 ┬─ pretrained_models
-│   ├─ Rain12.pth
-│   ├─ Rain200H.pth
+│   ├─ ATID.pth
+│   ├─ Realrain_1k_H.pth
 │   ├─ ... (model name)
 │   └─ ... (exp name)
 └─ data
-    ├─ Rain200L
-    ├─ Rain200H
+    ├─ ATID
+    ├─ Realrain_1k_H
     │├─ train
     ││  ├─ input
     ││  │  └─ ... (image filename)
