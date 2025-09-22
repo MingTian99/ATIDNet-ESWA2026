@@ -115,21 +115,21 @@ It is recommended that you can download the visual deraining results and retest 
 <thead>
   <tr>
     <th>Dataset</th>
-    <th>Rain12</th>
-    <th>Rain200L</th>
-    <th>Rain200H</th>
-    <th>Rain1200</th>
-    <th>RW_Rain</th>
+    <th>Daytime</th>
+    <th>Nighttime</th>
+    <th>RealRain-1k-H</th>
+    <th>RealRain-1k-L</th>
+    <th>GTAV-NightRain</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>Baidu Cloud</td>
-    <td> <a href="https://pan.baidu.com/s/1ch1H426nQGhRzHZDnF0NAA?pwd=khah 提取码：khah">Download</a> </td>
+    <td align="center"> <a href="https://pan.baidu.com/s/1ch1H426nQGhRzHZDnF0NAA?pwd=khah 提取码：khah">Download</a> </td>
     <td align="center"> <a href="https://pan.baidu.com/s/12zgi3x8YY_ZPfI6sfGgMRQ?pwd=l5rn 提取码：l5rn">Download</a> </td>
-    <td> <a href="https://pan.baidu.com/s/19TkwD-XzDAIp46145wmzpw?pwd=5uw9 提取码：5uw9">Download</a> </td>
-    <td> <a href="https://pan.baidu.com/s/1xT7pMxESXcMnNL72ihbiuw?pwd=v9xc 提取码：v9xc">Download</a> </td>
-    <td> <a href="https://pan.baidu.com/s/1rerYW9VbEweyaVvQpO7NAA?pwd=dt70 提取码：dt70">Download</a> </td>
+    <td align="center"> <a href="https://pan.baidu.com/s/19TkwD-XzDAIp46145wmzpw?pwd=5uw9 提取码：5uw9">Download</a> </td>
+    <td align="center"> <a href="https://pan.baidu.com/s/1xT7pMxESXcMnNL72ihbiuw?pwd=v9xc 提取码：v9xc">Download</a> </td>
+    <td align="center"> <a href="https://pan.baidu.com/s/1rerYW9VbEweyaVvQpO7NAA?pwd=dt70 提取码：dt70">Download</a> </td>
   </tr>
 </tbody>
 </table>
