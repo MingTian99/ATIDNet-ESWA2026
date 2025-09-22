@@ -23,33 +23,36 @@ Despite significant progress has been made in image deraining, most of these stu
 Extensive experiments show the effectiveness of our dataset and method, revealing a new research trend.
 >
 > 
-# Dataset🔥
 
-【Dataset pipeline】
+# 🔥 Dataset pipeline
 
 ![Dataset_pipeline](data_pipeline.jpg)
 
-<!---
-## News
+# ✨Network  Architecture
 
-- **July 4, 2023:** Paper submitted. 
+
+![RWKV_Derainer](RWKV_Derainer.jpg)
+
+## News
+<!---
+- **July 4, 2025:** Paper submitted.
 - **Sep 13, 2023:** The basic version is released, including codes, pre-trained models on the Sate 1k dataset, and the used dataset.
 - **Sep 14, 2023:** RICE dataset updated.
   ** Sep 15, 2023:** The [visual results on Sate 1K](https://pan.baidu.com/s/1dToHnHI9GVaHQ3-I6OIbpA?pwd=rs1k) and [real-world dataset RSSD300](https://pan.baidu.com/s/1OZUWj8eo6EmP5Rh8DE1mrA?pwd=8ad5) are updated.-->
 
 ### Install
 
-We test the code on PyTorch 1.9.1 + CUDA 11.1 + cuDNN 8.0.5.
+We test the code on PyTorch 1.9.1 + CUDA 11.8 + cuDNN 8.9.6.
 
 1. Create a new conda environment
 ```
-conda create -n ESDNet python=3.8
-conda activate ESDNet 
+conda create -n RWKV-Derainer python=3.8
+conda activate RWKV-Derainer 
 ```
 
 2. Install dependencies
 ```
-pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==1.9.1+cu118 torchvision==0.10.1+cu118 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
 
 pip install matplotlib scikit-image opencv-python numpy einops math natsort tqdm lpips time tensorboardX
 ```
