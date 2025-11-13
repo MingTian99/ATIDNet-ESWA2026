@@ -10,7 +10,7 @@
 
 > <!--Learning A Spiking Neural Network for Efficient Image Deraining-->
 > 
->  [Tianyu Song](https://scholar.google.com/citations?user=wA3Op6cAAAAJ&hl=zh-CN), Shumin Fan, [Xiang Chen](https://cschenxiang.github.io/), Hongbo Liu
+>  [Tianyu Song](https://scholar.google.com/citations?user=wA3Op6cAAAAJ&hl=zh-CN), Shumin Fan, [Xiang Chen](https://cschenxiang.github.io/), Hongbo Liu, Ruili Wang
 >
 > <!--- Dalian Polytechnic University, Nanjing University of Science and Technology and Harbin Institute of Technology-->
 >
