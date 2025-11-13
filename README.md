@@ -26,7 +26,7 @@ Extensive experiments show the effectiveness of our dataset and method, revealin
 
 # 🔥 Dataset pipeline
 
-![Dataset_pipeline](data_pipeline.jpg)
+![Dataset_pipeline](Data_pipeline.jpg)
 
 # ✨Network  Architecture
 
