@@ -5,12 +5,12 @@
 --->
 <div align="center">
 
-# Chasing Day and Night: Towards All-Time Image Deraining via Dual Prior Guidance and RWKV-like Architecture
+# Unifying day and night: Towards all-time image deraining via joint prior representation learning
 </div>
 
 > <!--Learning A Spiking Neural Network for Efficient Image Deraining-->
 > 
->  [Tianyu Song](https://scholar.google.com/citations?user=wA3Op6cAAAAJ&hl=zh-CN), Shumin Fan, [Xiang Chen](https://cschenxiang.github.io/), Hongbo Liu, Ruili Wang
+>  [Tianyu Song](https://scholar.google.com/citations?user=wA3Op6cAAAAJ&hl=zh-CN), Shumin Fan, [Xiang Chen](https://cschenxiang.github.io/), Naiyao Wang, Hongbo Liu, Ruili Wang
 >
 > <!--- Dalian Polytechnic University, Nanjing University of Science and Technology and Harbin Institute of Technology-->
 >
@@ -19,8 +19,7 @@
 > Welcome to visit our website(专注底层视觉领域的信息服务平台) for low-level vision: https://www.lowlevelcv.com
 > 
 > **Abstract:** 
-Despite significant progress has been made in image deraining, most of these studies either focus solely on daytime scenes or are specifically designed for nighttime scenarios. However, designing separate models for rainy scenes at different times of day restricts their real-world application. In this paper, we introduce a new task: All-Time Image Deraining (ATID), which aims to simultaneously handle both daytime and nighttime rain degradation using a universal model. To benchmark this task, we construct a high-quality dataset called AT-Rain, which introduces depth-brightness fusion and near-far scene fusion ways to better improve realism and harmony in synthesized rainy images across different times of day. Building upon this dataset, we develop a robust ATID model, RWKV-Derainer, which integrates a joint prior estimator into the RWKV-based backbone to better guide degradation-aware learning under all-time imaging environments, enabling the learned features to facilitate rain removal and enhance the model's robustness in real-world scenarios.
-Extensive experiments show the effectiveness of our dataset and method, revealing a new research trend.
+Existing deep learning–based image deraining methods largely rely on implicit feature learning and often neglect the intrinsic coupling between rain degradation and the imaging environment, leading to poor generalization across diverse illumination conditions, especially between daytime and nighttime scenes. We introduce all-time image deraining (ATID), a unified task for restoring rain-degraded images under both daytime and nighttime conditions, and propose ATID-Net, a prior representation–guided network for this task. Central to our approach is the joint prior estimator (JPE), which disentangles depth and illumination cues from the input image and injects them into the restoration backbone to guide feature learning in a condition-aware manner. To effectively model complex rain patterns, ATID-Net adopts an improved Receptance Weighted Key Value (RWKV) backbone, in which Wave-Shift and Cross-WKV are introduced to enhance local frequency modeling and global spatial interaction with linear computational complexity. Furthermore, we construct AT-Rain, a high-fidelity all-time deraining dataset synthesized via depth–illumination and near–far fusion strategies, significantly narrowing the synthetic-to-real domain gap. Extensive experiments on synthetic and real-world benchmarks demonstrate that ATID-Net achieves superior deraining performance, establishing a robust unified baseline for ATID. The code will be released.
 >
 > 
 
@@ -46,8 +45,8 @@ We test the code on PyTorch 1.9.1 + CUDA 11.8 + cuDNN 8.9.6.
 
 1. Create a new conda environment
 ```
-conda create -n RWKV-Derainer python=3.8
-conda activate RWKV-Derainer 
+conda create -n ATIDNet python=3.8
+conda activate ATIDNet
 ```
 
 2. Install dependencies
