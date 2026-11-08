@@ -25,12 +25,12 @@ Existing deep learning–based image deraining methods largely rely on implicit 
 
 # 🔥 Dataset pipeline
 
-![Dataset_pipeline](Data_pipeline.png)
+![Dataset_pipeline](Figures/Data_pipeline.png)
 
 # ✨Network  Architecture
 
 
-![RWKV_Derainer](RWKV_Derainer.jpg)
+![RWKV_Derainer](Figures/Network.png)
 
 ## News
 <!---
